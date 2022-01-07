@@ -10,7 +10,7 @@
 ### RxSwift 구현 코드 리뷰
 
 ```swift
-   Observable.from([organization])  <span style="color:yellow">//노란 글씨입니다.</span>
+   Observable.from([organization])  
             .map{ organization -> URL in
                 return URL(string:
                             "http://api.github.com/orgs/\(organization)/repos")!
